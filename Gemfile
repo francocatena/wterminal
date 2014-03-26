@@ -9,12 +9,12 @@ gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder'
+gem 'web-console'
 
 gem 'unicorn'
 
 group :development do
   gem 'spring'
-  gem 'web-console'
   gem 'unicorn-rails'
   gem 'capistrano'
   gem 'capistrano-bundler'
