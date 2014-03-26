@@ -16,6 +16,10 @@ group :development do
   gem 'spring'
   gem 'web-console'
   gem 'unicorn-rails'
+  gem 'capistrano'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano-rbenv'
 end
 
 gem 'sdoc', group: :doc
