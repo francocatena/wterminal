@@ -9,6 +9,7 @@ set :deploy_to, "/var/www/#{fetch(:application)}"
 set :deploy_via, :remote_cache
 set :scm, :git
 
+set :linked_files, %w{config/secrets.yml}
 set :linked_dirs, %w{log}
 
 set :rbenv_type, :user
