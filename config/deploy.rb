@@ -1,7 +1,4 @@
-# config valid only for Capistrano 3.1
-lock '3.1.0'
-
-set :application, 'terminal.quieroruby.com.ar'
+set :application, 'irb.cirope.com'
 set :user, 'deployer'
 set :repo_url, 'git://github.com/francocatena/wterminal.git'
 
@@ -15,7 +12,7 @@ set :scm, :git
 set :linked_dirs, %w{log}
 
 set :rbenv_type, :user
-set :rbenv_ruby, '2.1.1'
+set :rbenv_ruby, '2.3.0'
 
 set :keep_releases, 5
 

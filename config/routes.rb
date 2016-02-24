@@ -1,3 +1,3 @@
 Rails.application.routes.draw do
-  mount WebConsole::Engine => '/'
+  root 'console#show'
 end
