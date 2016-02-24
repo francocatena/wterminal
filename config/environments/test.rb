@@ -36,7 +36,6 @@ Rails.application.configure do
 
   # Raises error for missing translations
   # config.action_view.raise_on_missing_translations = true
-  config.web_console.development_only = false
 
   # Random test order
   config.active_support.test_order = :random
